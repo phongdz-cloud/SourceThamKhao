@@ -1,0 +1,10 @@
+
+module.exports.userService = require('./user_service')
+module.exports.tokenService = require('./token_service')
+module.exports.authService = require('./auth_service')
+module.exports.addressService = require('./address_service')
+module.exports.postService = require('./post_service')
+module.exports.commentService = require('./comment_service')
+module.exports.messageService = require('./message_service')
+module.exports.conversationService = require('./conversation_service')
+module.exports.notifyService = require('./notify_service')

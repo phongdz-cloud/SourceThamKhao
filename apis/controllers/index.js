@@ -1,0 +1,7 @@
+module.exports.authController = require('./auth_controller')
+module.exports.userController = require('./user_controller')
+module.exports.addressController = require('./address_controller')
+module.exports.postController = require('./post_controller')
+module.exports.commentController = require('./comment_controller')
+module.exports.messageController = require('./message_controller')
+module.exports.notifyController = require('./notify_controller')

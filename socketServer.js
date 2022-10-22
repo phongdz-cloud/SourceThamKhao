@@ -101,6 +101,9 @@ const SocketServer = (socket) => {
 
     // Notification
     socket.on('createNotify', msg => {
+        console.log(users)
+        console.log("--------")
+        console.log(msg)
         const client = users.find(user => msg.recipients.includes(user.id))
         client && socket.to(`${client.socketId}`).emit('createNotifyToClient', msg)
     })
